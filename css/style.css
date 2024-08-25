@@ -152,8 +152,7 @@
 }
 .img-menor img{
     position: relative;
-    width: 40px;
-    bottom: 0;
+    width: 40px;   
     cursor: pointer;
     transition: .5s;
 }
