@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenFreedev</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,400;1,500;1,600;1,900&display=swap" rel="stylesheet">
+    <!-- link icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- link script -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section class="container">
+        <header class="header">
+            <nav class="navegacao">
+                <img src="img/logo.png" alt="">
+                <ul class="listas">
+                    <a href=""><li>Home</li></a>
+                    <a href=""><li>Menu</li></a>
+                    <a href=""><li>Sobre</li></a>
+                    <a href=""><li>Contato</li></a>
+                </ul>
+            </nav>
+            <div class="nav-mobile">
+                <ul class="lista-mobile">
+                    <a href=""><li>Home</li></a>
+                    <a href=""><li>Menu</li></a>
+                    <a href=""><li>Sobre</li></a>
+                    <a href=""><li>Contato</li></a>
+                </ul>
+            </div>
+            <div class="hambergue">
+                <span><div class="item1"></div></span>
+                <span><div class="item2"></div></span>
+                <span><div class="item3"></div></span>
+            </div>
+        </header> 
+
+        <main class="pricipal">
+            <div class="conteudo">
+                <h1>Não e só café <br>Isso é <span>Starbucks</span></h1>
+                <p>Todos os dias esperamos fazer duas coisas: dividir um ótimo café com nossos amigos e ajudar a tornar o mundo um pouquinho melhor. Já era assim quando a primeira Starbucks abriu em 1971 e continua sendo assim até hoje.</p>
+                <a href="https://www.starbucks.com.br/sobre" target="_blank"><button>Saber mais</button></a>
+            </div>
+            <div class="container-drink">
+                <div id="div1" class="circulo active" style="background-color: #2b5942;">
+                    <div class="img ">
+                        <img src="img/drink-chocolate.png" alt="drink-chocolate">
+                    </div>
+                </div>
+                <div id="div2" class="circulo " style="background-color: #e2c5be;">
+                    <div class="img2 ">
+                        <img src="img/coffee-drink-starbucks-latte-free.png" alt="drink-chocolate">
+                    </div>
+                </div>    
+                <div id="div3" class="circulo " style="background-color: #b24081;">
+                    <div class="img3">
+                        <img class="img1" src="img/frappuccino-drink.png"  alt="drink-chocolate">
+                    </div>
+                </div>
+            </div>
+
+               
+            <div class="img-menor">
+                <img onclick="showDiv('div1')" src="img/drink-chocolate.png" alt="">
+                <img onclick="showDiv('div2')" src="img/coffee-drink-starbucks-latte-free.png" alt="">
+                <img onclick="showDiv('div3')" src="img/frappuccino-drink.png" alt="">
+            </div>
+            <div class="rede-social">
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+            </div>
+
+        </main>
+     
+
+    </section>
+
+</body>
+</html>
