@@ -151,13 +151,14 @@
     right: 450px; 
 }
 .img-menor img{
-    position: relative;
     width: 40px;   
     cursor: pointer;
-    transition: .5s;
+    transform: translateY(0);
+    transition: 0.5s;
+    
 }
 .img-menor img:hover {
-    bottom: 10px;
+    transform: translateY(-10px)
 }
 .rede-social{
     position: absolute;
