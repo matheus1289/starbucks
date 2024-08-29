@@ -158,7 +158,7 @@
     
 }
 .img-menor img:hover {
-    transform: translateY(-10px)
+    transform: translateY(-10px);
 }
 .rede-social{
     position: absolute;
